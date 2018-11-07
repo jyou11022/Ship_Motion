@@ -1,12 +1,3 @@
-#Part 2 Extra Credit
-# n = 100; y1 = rnorm(n, 0, 1);  y2 = rnorm(n, 4, 1)
-# w = rbinom(n, 1, .5)                     
-# z = w*y1 + (1-w)*y2                      
-# hist(z, prob=T, col="skyblue2",ylim=c(0,.3), main="Bimodel Distribution",breaks=10);
-# curve(.5*dnorm(x,0,1)+.5*dnorm(x,4,1), lwd=2, col="blue", add=T)
-# mean(z) 
-# var(z)
-
 p = rep(1,31)
 for (k in 1:30){ p[k+1] = (k-roll.fd$d)*p[k]/(k+1) }
 plot(1:30, p[-1], ylab=expression(pi(d)), xlab="Index", type="h")
