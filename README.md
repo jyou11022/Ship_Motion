@@ -1,8 +1,9 @@
 # Ship_Motion
-Matlab Version: 2018b
 
-Python
+# Versions
 
-  Version:3.4
+Matlab : 2018b
 
-  Pytorch: 0.4.1
+Python:3.4
+
+Pytorch: 0.4.1
