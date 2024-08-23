@@ -1,6 +1,4 @@
 %%
-addpath('C:\Users\JYou1.DESKTOP-FUCAOQH\Desktop\Research\SCONE_Cdata')
-
 lvl = ['1' '2' '3']; %Char. of the motion lvl - Level# 1:low / 2:moderate / 3:high
 dof = ['R' 'H']; %Roll(R) or Heave(H) rate as the primary determinant
 deck_loc = ['1' '2']; %Flight Deck Loc. - 1:(-280,-15,-53)ft / 2:(-525,15,-53)ft
